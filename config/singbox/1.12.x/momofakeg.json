@@ -22,7 +22,6 @@
     {"tag": "🚀 默认代理", "type": "selector", "outbounds": ["♻️ 自动选择","🇭🇰 香港自动","🇭🇰 香港手动", "🇯🇵 日本手动","🇯🇵 日本自动", "🇸🇬 狮城手动", "🇸🇬 狮城自动", "🇺🇲 美国手动", "🇺🇲 美国自动", "🐸 手动选择"]},
     {"tag": "Mijia", "type": "selector", "outbounds": ["🎯 全球直连","♻️ 自动选择","🇭🇰 香港自动", "🇭🇰 香港手动", "🇸🇬 狮城自动", "🇸🇬 狮城手动", "🇯🇵 日本手动", "🇯🇵 日本自动","🇺🇲 美国手动", "🇺🇲 美国自动", "🐸 手动选择"]},
     {"tag": "kwrt", "type": "selector", "outbounds": ["♻️ 自动选择","🇭🇰 香港自动", "🇭🇰 香港手动", "🇸🇬 狮城自动", "🇸🇬 狮城手动", "🇯🇵 日本手动", "🇯🇵 日本自动","🇺🇲 美国手动", "🇺🇲 美国自动", "🐸 手动选择"]},
-    {"tag": "block", "type": "block", "outbounds": "block"},
     {"tag": "🧠 AI", "type": "selector", "outbounds": ["🇸🇬 狮城自动", "🇸🇬 狮城手动", "🇯🇵 日本手动", "🇯🇵 日本自动","🇺🇲 美国手动","🇺🇲 美国自动", "♻️ 自动选择"]},
     {"tag": "📹 YouTube", "type": "selector", "outbounds": ["♻️ 自动选择","🇭🇰 香港自动", "🇭🇰 香港手动", "🇸🇬 狮城自动", "🇸🇬 狮城手动", "🇯🇵 日本手动", "🇯🇵 日本自动","🇺🇲 美国手动", "🇺🇲 美国自动", "🐸 手动选择"]},
     {"tag": "🍀 Google", "type": "selector", "outbounds": ["♻️ 自动选择","🇭🇰 香港手动", "🇭🇰 香港自动", "🇯🇵 日本手动", "🇯🇵 日本自动","🇸🇬 狮城手动", "🇸🇬 狮城自动", "🇺🇲 美国手动", "🇺🇲 美国自动", "🐸 手动选择"]},
@@ -58,7 +57,6 @@
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"rule_set": "Mijia", "outbound": "Mijia"},
       {"rule_set": "kwrt", "outbound": "kwrt"},
-      {"rule_set": "block", "outbound": "block"},
       {"rule_set": "geosite-ai", "outbound": "🧠 AI"},
       {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
       {"rule_set": "geosite-google", "outbound": "🍀 Google"},
@@ -83,7 +81,6 @@
     "rule_set": [
       {"tag": "Mijia", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Lzfert/clash/refs/heads/main/mijia.list", "download_detour": "🎯 全球直连"},
       {"tag": "kwrt", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Lzfert/clash/refs/heads/main/lw.list", "download_detour": "🎯 全球直连"},
-      {"tag": "block", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Lzfert/clash/refs/heads/main/block.list", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-ai", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-youtube", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-google", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs", "download_detour": "🎯 全球直连"},
